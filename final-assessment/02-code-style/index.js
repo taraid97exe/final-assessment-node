@@ -5,7 +5,7 @@ function getBooks() {
 }
 
 function getBookById(id) {
-  let book = books[id]; /* Terdapat semicolon `;` di setiap akhir statement. */ /* Indentasi sebesar **2 spasi**. */
+  const book = books[id]; /* Terdapat semicolon `;` di setiap akhir statement. */ /* Indentasi sebesar **2 spasi**. */
   if (!book) { /* Indentasi sebesar **2 spasi**. */
     return null; /* Indentasi sebesar **2 spasi**. */
   } /* Indentasi sebesar **2 spasi**. */
@@ -17,7 +17,7 @@ function saveBook(book) {
 }
 
 saveBook({ id: 'book-1', name: 'Book 1' }); /* Selalu tambahkan spasi di antara tanda `{ }` dan nama properti yang didefinsikan dalam satu baris. */
-let myBooks = getBooks(); /* Terdapat semicolon `;` di setiap akhir statement. */
+const myBooks = getBooks(); /* Terdapat semicolon `;` di setiap akhir statement. */
 const myBook = getBookById('book-1');
 
 console.log(myBooks);
