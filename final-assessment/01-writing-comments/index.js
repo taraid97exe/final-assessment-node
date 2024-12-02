@@ -1,4 +1,4 @@
-/* username: tara_id97exe */
+// username: tara_id97exe
 
 /* Goal tahun ini:
 1. Belajar JavaScript.
